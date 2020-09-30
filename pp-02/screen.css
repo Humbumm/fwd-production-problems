@@ -18,6 +18,12 @@ html {
   padding: 25px 12.5px 25px 12.5px;
 }
 
+h1 {
+  font-size: 1.7769em; /* 35.538px / 20px (using this value because context is always taken from the parent elements size when it is first in the element) = 1.7769em */
+  line-height: 37.5px; /* one and a half times the 25px baseline */
+  line-height: 1.0552085092em; /* 37.5 / 35.538 (using this value from font-size as context value) = 1.0552085092 */
+  padding-bottom: 25px;
+}
 h2 {
   font-size: 26.66px;
   line-height: 31.25px;
