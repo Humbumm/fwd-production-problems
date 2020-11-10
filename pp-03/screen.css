@@ -48,9 +48,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     width: 50vw;
     height: 50vw;
   }
+  #one {
+    order: -1;
+  }
   #three {
     width: 100vw;
     height: 50vw;
+    order: -1;
   }
 }
 
@@ -65,7 +69,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     height: 100vw;
     width: 33.333vw;
   }
-  #three {
+  #one {
     order: 1;
+  }
+  #two {
+    order: 2;
+  }
+  #three {
+    order: 3;
   }
 }
